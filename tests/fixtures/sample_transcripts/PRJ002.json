@@ -1,0 +1,62 @@
+{
+  "meeting_id": "PRJ002",
+  "duration_minutes": 25,
+  "speakers": [
+    {
+      "id": "PM",
+      "name": "Project Manager"
+    },
+    {
+      "id": "DEV",
+      "name": "Lead Developer"
+    },
+    {
+      "id": "OPS",
+      "name": "Operations Manager"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:10",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Quick sync on the infrastructure. What's the status, Operations?"
+    },
+    {
+      "timestamp": "00:00:45",
+      "speaker": "OPS",
+      "speaker_name": "Operations Manager",
+      "text": "We're setting up the Cloud Run environment. Database is PostgreSQL on Cloud SQL."
+    },
+    {
+      "timestamp": "00:02:00",
+      "speaker": "DEV",
+      "speaker_name": "Lead Developer",
+      "text": "Good. We'll use BigQuery for analytics and Firestore for real-time features."
+    },
+    {
+      "timestamp": "00:03:30",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Sounds solid. OPS, please ensure all infrastructure is ready by August 31st."
+    },
+    {
+      "timestamp": "00:04:45",
+      "speaker": "OPS",
+      "speaker_name": "Operations Manager",
+      "text": "Will do. I'll also setup monitoring and logging with Cloud Logging."
+    },
+    {
+      "timestamp": "00:06:00",
+      "speaker": "DEV",
+      "speaker_name": "Lead Developer",
+      "text": "We need to decide on API rate limiting and caching strategies."
+    },
+    {
+      "timestamp": "00:07:15",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Let's use Redis for caching. Dev, please implement rate limiting with Gemini API limits in mind."
+    }
+  ]
+}

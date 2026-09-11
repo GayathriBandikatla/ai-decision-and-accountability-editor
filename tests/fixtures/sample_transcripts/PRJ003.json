@@ -1,0 +1,62 @@
+{
+  "meeting_id": "PRJ003",
+  "duration_minutes": 20,
+  "speakers": [
+    {
+      "id": "TL",
+      "name": "Tech Lead"
+    },
+    {
+      "id": "DEV1",
+      "name": "Frontend Dev"
+    },
+    {
+      "id": "DEV2",
+      "name": "Backend Dev"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:20",
+      "speaker": "TL",
+      "speaker_name": "Tech Lead",
+      "text": "Let's discuss the API design. Here's the plan: REST endpoints with JSON payloads."
+    },
+    {
+      "timestamp": "00:01:30",
+      "speaker": "DEV1",
+      "speaker_name": "Frontend Dev",
+      "text": "Makes sense. I'll implement the client to consume these endpoints using React."
+    },
+    {
+      "timestamp": "00:03:00",
+      "speaker": "DEV2",
+      "speaker_name": "Backend Dev",
+      "text": "I'll build the API with FastAPI. We should use Pydantic for validation."
+    },
+    {
+      "timestamp": "00:04:30",
+      "speaker": "TL",
+      "speaker_name": "Tech Lead",
+      "text": "Perfect. Frontend and Backend should be in separate repos. Frontend deployed to Cloud Run."
+    },
+    {
+      "timestamp": "00:06:00",
+      "speaker": "DEV1",
+      "speaker_name": "Frontend Dev",
+      "text": "Should I use TypeScript or JavaScript? I prefer TypeScript for type safety."
+    },
+    {
+      "timestamp": "00:07:15",
+      "speaker": "TL",
+      "speaker_name": "Tech Lead",
+      "text": "Go with TypeScript. It's stricter and prevents runtime errors. Start with the upload component this week."
+    },
+    {
+      "timestamp": "00:08:45",
+      "speaker": "DEV2",
+      "speaker_name": "Backend Dev",
+      "text": "I'll have the /analyze endpoint ready by tomorrow. We'll iterate based on frontend needs."
+    }
+  ]
+}

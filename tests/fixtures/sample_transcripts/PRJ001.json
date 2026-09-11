@@ -1,0 +1,102 @@
+{
+  "meeting_id": "PRJ001",
+  "duration_minutes": 30,
+  "speakers": [
+    {
+      "id": "PM",
+      "name": "Project Manager"
+    },
+    {
+      "id": "DEV",
+      "name": "Lead Developer"
+    },
+    {
+      "id": "UI",
+      "name": "UI Designer"
+    },
+    {
+      "id": "QA",
+      "name": "QA Engineer"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:15",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Welcome everyone. Let's discuss the next phase of the project. We need to finalize our tech stack and timeline."
+    },
+    {
+      "timestamp": "00:01:00",
+      "speaker": "DEV",
+      "speaker_name": "Lead Developer",
+      "text": "I propose we use React for the frontend and Python with FastAPI for the backend. It aligns with our team's expertise."
+    },
+    {
+      "timestamp": "00:02:30",
+      "speaker": "UI",
+      "speaker_name": "UI Designer",
+      "text": "React works great for us. We can design components reusably."
+    },
+    {
+      "timestamp": "00:03:45",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Great, so we've decided on React and Python. Development starts next week. Dev, can you setup the development environment?"
+    },
+    {
+      "timestamp": "00:04:30",
+      "speaker": "DEV",
+      "speaker_name": "Lead Developer",
+      "text": "Sure, I'll have it ready by Friday. I'll also document the setup process."
+    },
+    {
+      "timestamp": "00:05:45",
+      "speaker": "QA",
+      "speaker_name": "QA Engineer",
+      "text": "We should define testing strategy early. I recommend automated tests for backend and end-to-end tests for frontend."
+    },
+    {
+      "timestamp": "00:07:00",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Good point. Let's aim for 80% code coverage. QA, please document the testing plan by next Wednesday."
+    },
+    {
+      "timestamp": "00:08:30",
+      "speaker": "DEV",
+      "speaker_name": "Lead Developer",
+      "text": "We'll need to deploy to Cloud Run. I suggest using Docker for containerization."
+    },
+    {
+      "timestamp": "00:09:45",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Perfect. Let's use Google Cloud infrastructure. Dev, please setup CI/CD pipelines by Sept 1st."
+    },
+    {
+      "timestamp": "00:11:00",
+      "speaker": "UI",
+      "speaker_name": "UI Designer",
+      "text": "When do we need the design mockups? I can start creating them this week."
+    },
+    {
+      "timestamp": "00:12:15",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Please share mockups by next Friday so dev can start implementation."
+    },
+    {
+      "timestamp": "00:13:30",
+      "speaker": "QA",
+      "speaker_name": "QA Engineer",
+      "text": "We should also plan for user acceptance testing. Can we schedule a demo in 2 weeks?"
+    },
+    {
+      "timestamp": "00:15:00",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Yes, let's schedule UAT for September 5th. Everyone should be prepared to present their work."
+    }
+  ]
+}

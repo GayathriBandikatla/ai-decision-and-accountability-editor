@@ -1,0 +1,74 @@
+{
+  "meeting_id": "PRJ005",
+  "duration_minutes": 28,
+  "speakers": [
+    {
+      "id": "PM",
+      "name": "Project Manager"
+    },
+    {
+      "id": "AR",
+      "name": "Architect"
+    },
+    {
+      "id": "QA",
+      "name": "QA Lead"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:45",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Final checkpoint coming up. Let's ensure we're on track. Architecture review, please."
+    },
+    {
+      "timestamp": "00:02:15",
+      "speaker": "AR",
+      "speaker_name": "Architect",
+      "text": "System is modular and loosely coupled. We have agents, validators, API, and frontend layers."
+    },
+    {
+      "timestamp": "00:03:45",
+      "speaker": "QA",
+      "speaker_name": "QA Lead",
+      "text": "Testing looks good. We have unit tests for validators and integration tests for API."
+    },
+    {
+      "timestamp": "00:05:30",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Excellent. When can we deploy to Cloud Run?"
+    },
+    {
+      "timestamp": "00:06:45",
+      "speaker": "AR",
+      "speaker_name": "Architect",
+      "text": "Dockerfile is ready. We can deploy by September 2nd. I'll handle the Cloud Run setup."
+    },
+    {
+      "timestamp": "00:08:15",
+      "speaker": "QA",
+      "speaker_name": "QA Lead",
+      "text": "We should do load testing before going live. I'll simulate 100 concurrent users."
+    },
+    {
+      "timestamp": "00:09:45",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Load testing is important. QA, complete testing by September 3rd. We'll be ready for final submission."
+    },
+    {
+      "timestamp": "00:11:30",
+      "speaker": "AR",
+      "speaker_name": "Architect",
+      "text": "I'll also prepare the demo script with all 5 sample transcripts."
+    },
+    {
+      "timestamp": "00:13:00",
+      "speaker": "PM",
+      "speaker_name": "Project Manager",
+      "text": "Perfect. By September 5th, we should have a complete, tested, and deployable system."
+    }
+  ]
+}

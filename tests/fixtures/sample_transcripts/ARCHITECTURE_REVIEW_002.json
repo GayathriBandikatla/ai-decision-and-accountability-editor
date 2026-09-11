@@ -1,0 +1,92 @@
+{
+  "meeting_id": "ARCHITECTURE_REVIEW_002",
+  "title": "Architecture Review - Microservices Migration",
+  "duration_minutes": 60,
+  "speakers": [
+    {
+      "id": "ARCH",
+      "name": "James Wilson (Solutions Architect)"
+    },
+    {
+      "id": "BACKEND",
+      "name": "Priya Patel (Backend Lead)"
+    },
+    {
+      "id": "OPS",
+      "name": "Alex Chen (DevOps Engineer)"
+    },
+    {
+      "id": "SECURITY",
+      "name": "Emma Thompson (Security Officer)"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:45",
+      "speaker": "ARCH",
+      "speaker_name": "James Wilson",
+      "text": "Thank you all for joining. Today we're discussing the migration from our monolithic architecture to microservices. This is a critical decision that will impact our scalability and development velocity."
+    },
+    {
+      "timestamp": "00:02:30",
+      "speaker": "BACKEND",
+      "speaker_name": "Priya Patel",
+      "text": "I've analyzed our codebase. I recommend breaking it into 5 microservices: User Service, Product Service, Order Service, Payment Service, and Notification Service. Each can be developed and deployed independently."
+    },
+    {
+      "timestamp": "00:05:00",
+      "speaker": "OPS",
+      "speaker_name": "Alex Chen",
+      "text": "Microservices will require changes to our deployment infrastructure. We'll need Kubernetes for orchestration and proper monitoring. I estimate 3 weeks to set up the infrastructure."
+    },
+    {
+      "timestamp": "00:07:15",
+      "speaker": "SECURITY",
+      "speaker_name": "Emma Thompson",
+      "text": "Security is a major concern with microservices. We need to implement service-to-service authentication, API gateways, and proper network segmentation."
+    },
+    {
+      "timestamp": "00:09:00",
+      "speaker": "ARCH",
+      "speaker_name": "James Wilson",
+      "text": "Good points. Let's decide on using Kong as our API Gateway and implement mutual TLS for service-to-service communication. Priya, can you lead the architecture documentation?"
+    },
+    {
+      "timestamp": "00:10:30",
+      "speaker": "BACKEND",
+      "speaker_name": "Priya Patel",
+      "text": "I'll create detailed architecture diagrams and service specifications. I can have the first draft ready in two weeks."
+    },
+    {
+      "timestamp": "00:12:00",
+      "speaker": "OPS",
+      "speaker_name": "Alex Chen",
+      "text": "We should also plan the data migration strategy. Some services will need their own databases. This is complex and needs careful planning."
+    },
+    {
+      "timestamp": "00:14:15",
+      "speaker": "SECURITY",
+      "speaker_name": "Emma Thompson",
+      "text": "I'll create a security assessment document. We need to ensure PCI compliance for the Payment Service and proper encryption everywhere."
+    },
+    {
+      "timestamp": "00:16:00",
+      "speaker": "ARCH",
+      "speaker_name": "James Wilson",
+      "text": "Timeline: Start with infrastructure setup (3 weeks), parallel with architecture documentation (2 weeks). Full migration target is 3 months. Does everyone agree?"
+    },
+    {
+      "timestamp": "00:18:00",
+      "speaker": "BACKEND",
+      "speaker_name": "Priya Patel",
+      "text": "Agreed, but we need to ensure backward compatibility during the migration. I propose a phased rollout starting with the Notification Service."
+    },
+    {
+      "timestamp": "00:20:00",
+      "speaker": "OPS",
+      "speaker_name": "Alex Chen",
+      "text": "I'll set up staging Kubernetes cluster by next month. We should start load testing immediately after infrastructure is ready."
+    }
+  ],
+  "generated_at": "2026-08-26T13:55:33.709916"
+}

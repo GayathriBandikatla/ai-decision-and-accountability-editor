@@ -1,0 +1,82 @@
+{
+  "meeting_id": "SECURITY_AUDIT_003",
+  "title": "Security Audit & Compliance Review",
+  "duration_minutes": 40,
+  "speakers": [
+    {
+      "id": "CSEC",
+      "name": "Robert Kim (Chief Security Officer)"
+    },
+    {
+      "id": "AUDIT",
+      "name": "Jennifer Martinez (Compliance Officer)"
+    },
+    {
+      "id": "DEV",
+      "name": "Thomas Brown (Senior Developer)"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:01:00",
+      "speaker": "CSEC",
+      "speaker_name": "Robert Kim",
+      "text": "Our security audit found several critical issues. First, we have hardcoded credentials in our codebase. This must be fixed immediately."
+    },
+    {
+      "timestamp": "00:02:30",
+      "speaker": "DEV",
+      "speaker_name": "Thomas Brown",
+      "text": "I'll audit the entire codebase and remove all hardcoded secrets. We'll use environment variables and AWS Secrets Manager for credential management."
+    },
+    {
+      "timestamp": "00:04:00",
+      "speaker": "AUDIT",
+      "speaker_name": "Jennifer Martinez",
+      "text": "We also need to comply with GDPR and CCPA. All user data must be encrypted and we need clear data retention policies."
+    },
+    {
+      "timestamp": "00:05:45",
+      "speaker": "CSEC",
+      "speaker_name": "Robert Kim",
+      "text": "Thomas, implement AES-256 encryption for all sensitive data at rest. For data in transit, enforce TLS 1.3."
+    },
+    {
+      "timestamp": "00:07:15",
+      "speaker": "DEV",
+      "speaker_name": "Thomas Brown",
+      "text": "I'll implement encryption this week. I also recommend we run OWASP security tests and fix any vulnerabilities found."
+    },
+    {
+      "timestamp": "00:09:00",
+      "speaker": "AUDIT",
+      "speaker_name": "Jennifer Martinez",
+      "text": "We need a comprehensive data classification and retention policy. Can you draft this by next Friday?"
+    },
+    {
+      "timestamp": "00:10:30",
+      "speaker": "CSEC",
+      "speaker_name": "Robert Kim",
+      "text": "Also, implement multi-factor authentication for all admin accounts. This is non-negotiable."
+    },
+    {
+      "timestamp": "00:12:00",
+      "speaker": "DEV",
+      "speaker_name": "Thomas Brown",
+      "text": "MFA will be ready by end of week. I'm also setting up automated security scanning in our CI/CD pipeline."
+    },
+    {
+      "timestamp": "00:14:00",
+      "speaker": "AUDIT",
+      "speaker_name": "Jennifer Martinez",
+      "text": "We should schedule a follow-up audit in 30 days. All critical issues must be resolved by then."
+    },
+    {
+      "timestamp": "00:15:30",
+      "speaker": "CSEC",
+      "speaker_name": "Robert Kim",
+      "text": "Agreed. Thomas, send weekly progress reports. Jennifer, prepare the compliance checklist."
+    }
+  ],
+  "generated_at": "2026-08-26T13:55:33.709916"
+}

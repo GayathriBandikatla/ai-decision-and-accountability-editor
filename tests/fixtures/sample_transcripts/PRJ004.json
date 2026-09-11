@@ -1,0 +1,68 @@
+{
+  "meeting_id": "PRJ004",
+  "duration_minutes": 22,
+  "speakers": [
+    {
+      "id": "PM",
+      "name": "Product Manager"
+    },
+    {
+      "id": "DEV",
+      "name": "Senior Developer"
+    },
+    {
+      "id": "SEC",
+      "name": "Security Officer"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:30",
+      "speaker": "PM",
+      "speaker_name": "Product Manager",
+      "text": "Security is critical. Let's discuss threat model and compliance requirements."
+    },
+    {
+      "timestamp": "00:02:00",
+      "speaker": "SEC",
+      "speaker_name": "Security Officer",
+      "text": "We need to encrypt all sensitive data at rest and in transit. API keys must never be hardcoded."
+    },
+    {
+      "timestamp": "00:03:30",
+      "speaker": "DEV",
+      "speaker_name": "Senior Developer",
+      "text": "Agreed. We'll use environment variables for secrets. I'll implement TLS for all endpoints."
+    },
+    {
+      "timestamp": "00:05:00",
+      "speaker": "SEC",
+      "speaker_name": "Security Officer",
+      "text": "Good. Also, all user inputs must be validated. No SQL injection or XSS vulnerabilities."
+    },
+    {
+      "timestamp": "00:06:30",
+      "speaker": "PM",
+      "speaker_name": "Product Manager",
+      "text": "Dev, please implement input validation using Pydantic. When can you have security testing done?"
+    },
+    {
+      "timestamp": "00:08:00",
+      "speaker": "DEV",
+      "speaker_name": "Senior Developer",
+      "text": "I'll run OWASP Top 10 checks by September 1st. I'll also setup Secret Manager for credentials."
+    },
+    {
+      "timestamp": "00:09:30",
+      "speaker": "SEC",
+      "speaker_name": "Security Officer",
+      "text": "Excellent. Let's also implement rate limiting to prevent abuse."
+    },
+    {
+      "timestamp": "00:11:00",
+      "speaker": "PM",
+      "speaker_name": "Product Manager",
+      "text": "Rate limiting is critical. Dev, implement this by next week. Security clearance needed before launch."
+    }
+  ]
+}

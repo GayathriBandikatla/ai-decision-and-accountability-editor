@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  # Backend FastAPI service
+  backend:
+    build: .
+    container_name: patchamomma-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GEMINI_MODEL=${GEMINI_MODEL:-gemini-3.6-flash}
+      - GEMINI_FALLBACK_MODELS=${GEMINI_FALLBACK_MODELS:-gemini-3.5-flash,gemini-3.8-flash,gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-flash-lite-latest}
+      - GCP_PROJECT_ID=${GCP_PROJECT_ID}
+      - GCP_CREDENTIALS_PATH=${GCP_CREDENTIALS_PATH}
+      - BQ_DATASET_ID=patchamomma
+      - FIRESTORE_COLLECTION=decision_ledger
+      - API_PORT=8000
+      - API_HOST=0.0.0.0
+      - DEBUG=False
+    volumes:
+      - ./tests:/app/tests
+      - ./config:/app/config
+      - ./agents:/app/agents
+      - ./validators:/app/validators
+      - ./integrations:/app/integrations
+      - ./data_models:/app/data_models
+    command: python main.py
+    networks:
+      - patchamomma-network
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+networks:
+  patchamomma-network:
+    driver: bridge
+
+volumes:
+  patchamomma-data:
+    driver: local

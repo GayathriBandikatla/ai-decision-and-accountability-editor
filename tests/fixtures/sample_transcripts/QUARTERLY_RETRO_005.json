@@ -1,0 +1,98 @@
+{
+  "meeting_id": "QUARTERLY_RETRO_005",
+  "title": "Q3 Retrospective & Lessons Learned",
+  "duration_minutes": 50,
+  "speakers": [
+    {
+      "id": "LEAD",
+      "name": "Michael Scott (Team Lead)"
+    },
+    {
+      "id": "MEM1",
+      "name": "Rachel Green (Developer)"
+    },
+    {
+      "id": "MEM2",
+      "name": "Chandler Bing (Developer)"
+    },
+    {
+      "id": "MEM3",
+      "name": "Monica Geller (QA Engineer)"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:01:30",
+      "speaker": "LEAD",
+      "speaker_name": "Michael Scott",
+      "text": "Great Q3, team! We shipped 8 major features and hit 95% of our sprint commitments. Let's discuss what went well and what we can improve."
+    },
+    {
+      "timestamp": "00:03:00",
+      "speaker": "MEM1",
+      "speaker_name": "Rachel Green",
+      "text": "I think our standups were really effective. Having clear daily goals helped us identify blockers early. We should keep this practice."
+    },
+    {
+      "timestamp": "00:04:30",
+      "speaker": "MEM2",
+      "speaker_name": "Chandler Bing",
+      "text": "Agreed. But I noticed our code review process was sometimes slow. We should establish SLA for code reviews - maybe 24 hours maximum."
+    },
+    {
+      "timestamp": "00:06:00",
+      "speaker": "MEM3",
+      "speaker_name": "Monica Geller",
+      "text": "Quality improved significantly. We had fewer production bugs this quarter. The testing improvements we made really helped."
+    },
+    {
+      "timestamp": "00:07:45",
+      "speaker": "LEAD",
+      "speaker_name": "Michael Scott",
+      "text": "Excellent observation. Monica, let's document what worked in testing and make it standard practice. What were the key improvements?"
+    },
+    {
+      "timestamp": "00:09:15",
+      "speaker": "MEM3",
+      "speaker_name": "Monica Geller",
+      "text": "We implemented automated integration tests and started testing on actual devices. This caught real issues that unit tests missed."
+    },
+    {
+      "timestamp": "00:11:00",
+      "speaker": "MEM1",
+      "speaker_name": "Rachel Green",
+      "text": "One challenge was the last-minute feature requests. They disrupted our sprint planning. Can we be more strict about scope?"
+    },
+    {
+      "timestamp": "00:12:30",
+      "speaker": "LEAD",
+      "speaker_name": "Michael Scott",
+      "text": "Valid point. We'll implement a hard freeze 48 hours before sprint end. Anything else needs to wait for next sprint."
+    },
+    {
+      "timestamp": "00:14:00",
+      "speaker": "MEM2",
+      "speaker_name": "Chandler Bing",
+      "text": "I also want to suggest we do more knowledge sharing. Some team members had expertise that wasn't being leveraged."
+    },
+    {
+      "timestamp": "00:15:30",
+      "speaker": "LEAD",
+      "speaker_name": "Michael Scott",
+      "text": "Great idea. Let's schedule weekly tech talks. Each team member presents something they learned. Who wants to go first in Q4?"
+    },
+    {
+      "timestamp": "00:17:00",
+      "speaker": "MEM1",
+      "speaker_name": "Rachel Green",
+      "text": "I'll present on the new API design patterns we used this quarter."
+    },
+    {
+      "timestamp": "00:18:30",
+      "speaker": "LEAD",
+      "speaker_name": "Michael Scott",
+      "text": "Perfect. Let's also implement a 24-hour code review SLA and document our testing best practices. I'll schedule the first tech talk for next week."
+    }
+  ],
+  "generated_at": "2026-08-26T13:55:33.718288"
+}

@@ -1,0 +1,116 @@
+{
+  "meeting_id": "SPRINT_PLANNING_001",
+  "title": "Sprint Planning - Q4 Initiative",
+  "duration_minutes": 45,
+  "speakers": [
+    {
+      "id": "PM",
+      "name": "Sarah Chen (Product Manager)"
+    },
+    {
+      "id": "ENG",
+      "name": "Marcus Johnson (Engineering Lead)"
+    },
+    {
+      "id": "DESIGN",
+      "name": "Lisa Wong (Design Lead)"
+    },
+    {
+      "id": "QA",
+      "name": "David Kumar (QA Manager)"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:00:30",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Welcome everyone to our sprint planning meeting. We have a lot to cover today, so let's get started. First, we need to decide on our tech stack for the new dashboard project."
+    },
+    {
+      "timestamp": "00:02:15",
+      "speaker": "ENG",
+      "speaker_name": "Marcus Johnson",
+      "text": "I've been evaluating several options. I recommend React for the frontend because of its component reusability and strong ecosystem. For the backend, Node.js with Express would be perfect for rapid development."
+    },
+    {
+      "timestamp": "00:04:00",
+      "speaker": "DESIGN",
+      "speaker_name": "Lisa Wong",
+      "text": "React works great for us. I can design reusable component libraries that developers can use directly. Plus, the developer experience with hot reload will speed up our workflow."
+    },
+    {
+      "timestamp": "00:05:45",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Excellent. So we've decided on React and Node.js. Marcus, when can you have the development environment set up?"
+    },
+    {
+      "timestamp": "00:06:30",
+      "speaker": "ENG",
+      "speaker_name": "Marcus Johnson",
+      "text": "I can have everything ready by next Friday. I'll also write comprehensive setup documentation so everyone can get started immediately."
+    },
+    {
+      "timestamp": "00:08:00",
+      "speaker": "QA",
+      "speaker_name": "David Kumar",
+      "text": "What about testing strategy? Should we implement unit tests, integration tests, or both?"
+    },
+    {
+      "timestamp": "00:09:15",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Good question. I want us to aim for at least 80% code coverage. We'll need both unit and integration tests. David, can you create a detailed testing plan?"
+    },
+    {
+      "timestamp": "00:10:30",
+      "speaker": "QA",
+      "speaker_name": "David Kumar",
+      "text": "I'll have a comprehensive testing strategy document ready by Wednesday. This will include test categories, coverage goals, and automation framework recommendations."
+    },
+    {
+      "timestamp": "00:12:00",
+      "speaker": "DESIGN",
+      "speaker_name": "Lisa Wong",
+      "text": "When do you need the UI mockups? I want to make sure the design is validated before engineering starts implementation."
+    },
+    {
+      "timestamp": "00:13:00",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Please have the mockups ready by next Tuesday. This way, Marcus's team can review and start implementation by Wednesday."
+    },
+    {
+      "timestamp": "00:14:30",
+      "speaker": "ENG",
+      "speaker_name": "Marcus Johnson",
+      "text": "We should also set up CI/CD pipelines. I'm thinking GitHub Actions for automated testing and deployment to staging."
+    },
+    {
+      "timestamp": "00:16:00",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Perfect. Marcus, set up the CI/CD pipeline by the end of next week. And let's schedule a design review meeting for Thursday to discuss the mockups."
+    },
+    {
+      "timestamp": "00:17:30",
+      "speaker": "QA",
+      "speaker_name": "David Kumar",
+      "text": "Should we also plan for performance testing? The dashboard needs to handle large datasets efficiently."
+    },
+    {
+      "timestamp": "00:18:45",
+      "speaker": "PM",
+      "speaker_name": "Sarah Chen",
+      "text": "Yes, performance is critical. We should test with datasets of at least 100k records. David, include this in your testing plan."
+    },
+    {
+      "timestamp": "00:20:00",
+      "speaker": "ENG",
+      "speaker_name": "Marcus Johnson",
+      "text": "I'll implement database indexing and query optimization to ensure good performance. We might also need to implement pagination or lazy loading."
+    }
+  ],
+  "generated_at": "2026-08-26T13:55:33.701040"
+}

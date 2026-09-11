@@ -1,0 +1,92 @@
+{
+  "meeting_id": "PRODUCT_ROADMAP_004",
+  "title": "Product Roadmap Planning - H2 2024",
+  "duration_minutes": 55,
+  "speakers": [
+    {
+      "id": "SVP",
+      "name": "Victoria Lane (SVP Product)"
+    },
+    {
+      "id": "PM1",
+      "name": "Alex Martinez (Product Manager)"
+    },
+    {
+      "id": "PM2",
+      "name": "Nina Singh (Senior Product Manager)"
+    },
+    {
+      "id": "MKTG",
+      "name": "Kevin Park (Marketing Manager)"
+    }
+  ],
+  "segments": [
+    {
+      "timestamp": "00:01:00",
+      "speaker": "SVP",
+      "speaker_name": "Victoria Lane",
+      "text": "Let's discuss our H2 roadmap. We need to align on priorities. Market research shows customers want better mobile experience and AI-powered features."
+    },
+    {
+      "timestamp": "00:03:00",
+      "speaker": "PM1",
+      "speaker_name": "Alex Martinez",
+      "text": "I propose three major initiatives: Mobile app redesign, AI-powered recommendations, and advanced analytics dashboard."
+    },
+    {
+      "timestamp": "00:05:15",
+      "speaker": "PM2",
+      "speaker_name": "Nina Singh",
+      "text": "I agree with the priorities. For mobile, we should focus on iOS first since that's 60% of our user base. Android can follow in Q4."
+    },
+    {
+      "timestamp": "00:07:00",
+      "speaker": "MKTG",
+      "speaker_name": "Kevin Park",
+      "text": "From marketing perspective, the AI features are most exciting for positioning. We can build a strong narrative around intelligent recommendations."
+    },
+    {
+      "timestamp": "00:08:30",
+      "speaker": "SVP",
+      "speaker_name": "Victoria Lane",
+      "text": "Timeline: iOS launch by September 30th, AI recommendations by October 31st, Advanced analytics by November 30th. Is this realistic?"
+    },
+    {
+      "timestamp": "00:10:00",
+      "speaker": "PM1",
+      "speaker_name": "Alex Martinez",
+      "text": "iOS is achievable. But AI recommendations require data science work. We need to hire or allocate resources immediately."
+    },
+    {
+      "timestamp": "00:12:00",
+      "speaker": "PM2",
+      "speaker_name": "Nina Singh",
+      "text": "I recommend we start with basic collaborative filtering and upgrade to ML models in Q1. This keeps us on schedule."
+    },
+    {
+      "timestamp": "00:13:45",
+      "speaker": "MKTG",
+      "speaker_name": "Kevin Park",
+      "text": "For marketing, we need at least 2 weeks before launch for campaign preparation. Please provide feature list and screenshots by September 1st."
+    },
+    {
+      "timestamp": "00:15:30",
+      "speaker": "SVP",
+      "speaker_name": "Victoria Lane",
+      "text": "Alex, prepare detailed requirements for iOS app by next Friday. Nina, draft the AI feature specification. Kevin, create marketing brief."
+    },
+    {
+      "timestamp": "00:17:00",
+      "speaker": "PM1",
+      "speaker_name": "Alex Martinez",
+      "text": "I'll also coordinate with engineering to understand technical feasibility and resource requirements."
+    },
+    {
+      "timestamp": "00:18:30",
+      "speaker": "SVP",
+      "speaker_name": "Victoria Lane",
+      "text": "Let's meet again next Wednesday to review drafts and confirm timelines. This roadmap will be our north star for H2."
+    }
+  ],
+  "generated_at": "2026-08-26T13:55:33.718288"
+}
