@@ -1,4 +1,4 @@
-# Patchamomma: AI Decision & Accountability Auditor
+# AI Decision & Accountability Auditor
 
 An Agentic AI platform that extracts decisions, action items, owners, deadlines, and dependencies from meeting transcripts using Gemini 2.0 Flash.
 
